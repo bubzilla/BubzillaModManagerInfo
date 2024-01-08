@@ -8,19 +8,6 @@
 			"group": "Core"
 		},
 		{
-			"name": "Gorilla Shotgun",
-			"tag": "",
-			"gitPath": "BzzzThe18th/GorillaShotgun",
-			"releaseId": 0,
-			"author": "buzzbb",
-			"group": "Gameplay",
-			"dependencies": [
-				"Utilla",
-				"HoneyLib",
-              	"ComputerInterface"
-			]
-		},
-		{
 			"name": "Utilla",
 			"tag": "",
 			"gitPath": "legoandmars/Utilla",
@@ -28,14 +15,21 @@
 			"author": "bobbievr",
 			"group": "Core"
 		},
+
 		{
-			"name": "Computer++",
+			"name": "GorillaShirts",
 			"tag": "",
-			"gitPath": "KyleTheScientist/ComputerPlusPlus",
+			"gitPath": "developer9998/GorillaShirts",
 			"releaseId": 0,
-			"author": "KyleTheScientist",
-			"group": "Libraries"
+			"author": "developer9998",
+			"group": "Cosmetic",
+			"dependencies": [
+				"Newtonsoft.JSON",
+				"Bepinject",
+				"Extenject"
+			]
 		},
+
 		{
 			"name": "Bark",
 			"tag": "",
@@ -48,16 +42,37 @@
 			]
 		},
 		{
-			"name": "Air Jump",
+	        	"name" : "Monke Map Loader",
+	        	"tag" : "",
+	        	"gitPath" : "Vadix88/MonkeMapLoader",
+	        	"releaseId" : 0,
+	        	"author" : "Vadix",
+	        	"group" : "Gameplay",
+	        	"dependencies" : [
+	         	"Newtonsoft.JSON",
+	         	"Utilla",
+	         	"Computer Interface"
+	                ]
+	        },
+		{
+			"name": "Gorilla Roulette",
 			"tag": "",
-			"gitPath": "fchb1239/AirJump",
+			"gitPath": "BrokenSt0ne/GorillaRoulette",
 			"releaseId": 0,
-			"author": "fchb1239",
+			"author": "awesome_phoenix",
 			"group": "Gameplay",
 			"dependencies": [
-				"Utilla",
-				"Computer++"
+				"HoneyLib"
 			]
+		},
+		
+		{
+			"name": "Computer++",
+			"tag": "",
+			"gitPath": "KyleTheScientist/ComputerPlusPlus",
+			"releaseId": 0,
+			"author": "KyleTheScientist",
+			"group": "Libraries"
 		},
 		{
 			"name": "HoneyLib",
@@ -103,43 +118,7 @@
 			"releaseId": 0,
 			"author": "ahauntedarmy",
 			"group": "Libraries"
-		},
-		{
-			"name": "GOOMPS",
-			"tag": "",
-			"gitPath": "BzzzThe18th/GOOMPS",
-			"releaseId": 0,
-			"author": "buzzbb",
-			"group": "Cosmetic",
-			"dependencies": [
-				"Utilla"
-			]
-		},
-		{
-			"name": "Gorilla Roulette",
-			"tag": "",
-			"gitPath": "BrokenSt0ne/GorillaRoulette",
-			"releaseId": 0,
-			"author": "awesome_phoenix",
-			"group": "Gameplay",
-			"dependencies": [
-				"HoneyLib"
-			]
-		},
-		
-	        {
-	        	"name" : "Monke Map Loader",
-	        	"tag" : "",
-	        	"gitPath" : "Vadix88/MonkeMapLoader",
-	        	"releaseId" : 0,
-	        	"author" : "Vadix",
-	        	"group" : "Gameplay",
-	        	"dependencies" : [
-	         	"Newtonsoft.JSON",
-	         	"Utilla",
-	         	"Computer Interface"
-	                ]
-	        }
+		}
 	],
 	"groups": [{
 			"name": "Core",
